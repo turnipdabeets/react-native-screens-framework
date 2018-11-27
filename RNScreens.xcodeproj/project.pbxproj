@@ -10,6 +10,10 @@
 		896839D721ADE05600FB849D /* RNScreens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896839CD21ADE05600FB849D /* RNScreens.framework */; };
 		896839DC21ADE05600FB849D /* RNScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896839DB21ADE05600FB849D /* RNScreensTests.swift */; };
 		896839DE21ADE05600FB849D /* RNScreens.h in Headers */ = {isa = PBXBuildFile; fileRef = 896839D021ADE05600FB849D /* RNScreens.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		896839EB21ADE0A900FB849D /* RNSScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 896839E721ADE0A900FB849D /* RNSScreen.h */; };
+		896839EC21ADE0A900FB849D /* RNSScreenContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 896839E821ADE0A900FB849D /* RNSScreenContainer.h */; };
+		896839ED21ADE0A900FB849D /* RNSScreenContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 896839E921ADE0A900FB849D /* RNSScreenContainer.m */; };
+		896839EE21ADE0A900FB849D /* RNSScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 896839EA21ADE0A900FB849D /* RNSScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		896839D621ADE05600FB849D /* RNScreensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNScreensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		896839DB21ADE05600FB849D /* RNScreensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNScreensTests.swift; sourceTree = "<group>"; };
 		896839DD21ADE05600FB849D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896839E721ADE0A900FB849D /* RNSScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNSScreen.h; path = "../react-native-screens/ios/RNSScreen.h"; sourceTree = "<group>"; };
+		896839E821ADE0A900FB849D /* RNSScreenContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNSScreenContainer.h; path = "../react-native-screens/ios/RNSScreenContainer.h"; sourceTree = "<group>"; };
+		896839E921ADE0A900FB849D /* RNSScreenContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNSScreenContainer.m; path = "../react-native-screens/ios/RNSScreenContainer.m"; sourceTree = "<group>"; };
+		896839EA21ADE0A900FB849D /* RNSScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNSScreen.m; path = "../react-native-screens/ios/RNSScreen.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 		896839C321ADE05500FB849D = {
 			isa = PBXGroup;
 			children = (
+				896839E721ADE0A900FB849D /* RNSScreen.h */,
+				896839EA21ADE0A900FB849D /* RNSScreen.m */,
+				896839E821ADE0A900FB849D /* RNSScreenContainer.h */,
+				896839E921ADE0A900FB849D /* RNSScreenContainer.m */,
 				896839CF21ADE05600FB849D /* RNScreens */,
 				896839DA21ADE05600FB849D /* RNScreensTests */,
 				896839CE21ADE05600FB849D /* Products */,
@@ -93,6 +105,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896839EB21ADE0A900FB849D /* RNSScreen.h in Headers */,
+				896839EC21ADE0A900FB849D /* RNSScreenContainer.h in Headers */,
 				896839DE21ADE05600FB849D /* RNScreens.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896839ED21ADE0A900FB849D /* RNSScreenContainer.m in Sources */,
+				896839EE21ADE0A900FB849D /* RNSScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

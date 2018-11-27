@@ -14,6 +14,8 @@
 		896839EC21ADE0A900FB849D /* RNSScreenContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 896839E821ADE0A900FB849D /* RNSScreenContainer.h */; };
 		896839ED21ADE0A900FB849D /* RNSScreenContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 896839E921ADE0A900FB849D /* RNSScreenContainer.m */; };
 		896839EE21ADE0A900FB849D /* RNSScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 896839EA21ADE0A900FB849D /* RNSScreen.m */; };
+		896839EF21ADE38500FB849D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 896839D121ADE05600FB849D /* Info.plist */; };
+		896839F021ADE39000FB849D /* RNScreens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896839CD21ADE05600FB849D /* RNScreens.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896839F021ADE39000FB849D /* RNScreens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896839EF21ADE38500FB849D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
